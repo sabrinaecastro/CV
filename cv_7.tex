@@ -1,0 +1,208 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.3 (29/10/16)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com) with modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Sabrina} % Your first name
+\familyname{Castro} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+%\address{San Blas 2610 Depto 2}{Capital Federal, Buenos Aires}
+%\mobile{1132516219 }
+%\email{sabrinaecastro@gmail.com}
+%\homepage{staff.org.edu/~jsmith}{staff.org.edu/$\sim$jsmith} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+%\extrainfo{additional information}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%FOTO%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%\quote{"A witty and playful quotation" - John Smith}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+\clearpage
+
+\recipient{HR Department}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+\date{\today} % Letter date
+\opening{Dear Sir or Madam,} % Opening greeting
+\closing{Sincerely yours,} % Closing phrase
+\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+%\makelettertitle % Print letter title
+
+%\lipsum[1-2] % Dummy text
+%\lipsum[4] % Dummy text
+
+%\makeletterclosing % Print letter signature
+
+%\newpage
+
+%----------------------------------------------------------------------------------------
+%	CURRICULUM VITAE
+%----------------------------------------------------------------------------------------
+
+\makecvtitle % Print the CV title
+
+
+\section{Datos Personales}
+
+
+\cvitem{Direcci\'on}{San Blas 2610 Depto 2, Capital Federal - Buenos Aires}
+\cvitem{Celular}{11-32516219}
+\cvitem{Mail}{sabrinaecastro@gmail.com}
+\cvitem{Edad}{40 a\~nos}
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Educaci\'on}
+\cventry{Universitario}{Analista Universitario en Computaci\'on}{Univerdad de Buenos Aires}{Facultad de Ciencias Exactas y Naturales}{}{}  % Arguments not required can be left empty
+\cventry{}{Licenciatura en ciencias de la computaci\'on}{Univerdad de Buenos Aires}{Facultad de Ciencias Exactas y Naturales}{}{Realizando la tesis de Licenciatura.}  % Arguments not required can be left empty
+\cventry{Secundario}{Bachiller}{Escuela de Educaci\'on Media N$^{\circ}$2}{General Francisco Ramirez}{\textit{Lan\'us Pcia. de Buenos Aires}}{Orientaci\'on gesti\'on y administraci\'on de empresas, siendo el idioma estudiado Ingles.}
+
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Antecedentes Docentes}
+
+%\subsection{Docente}
+\cventry{2018-Hoy}{\textbf{Investigadora Docente}}{\textsc{ Instituto de Ciencias }}{Universidad Nacional de General Sarmiento}{Ayudante de 1\textsuperscript{ra}, dedicaci\'on semiexclusiva, para el \'area de Computaci\'on}{Materia Programaci\'on I, L\'inea de Investigaci\'on: Programaci\'on lineal entera, Realizando tesis de Licenciatura: Algoritmos genéticos para el problema de k-proveedores}
+\cventry{2018}{\textbf{Docente dedicaci\'on Simple}}{\textsc{ Instituto de Ciencias }}{Universidad Nacional de General
+	Sarmiento}{}{Materia Programaci\'on I, durante el mes de marzo}
+
+\cventry{2015-2018}{\textbf{Docente MAF}}{\textsc{ Instituto de Ciencias }}{Universidad Nacional de General
+	Sarmiento}{}{
+\begin{description}
+	\item[Taller de Utilitarios] Materia dictada durante verano 2018.
+	\item[Programaci\'on I] Materia dictada desde el 1\textsuperscript{er} semestre de 2016 hasta el 1\textsuperscript{do} semestre de 2017.
+	\item[Introducci\'on a la Programaci\'on] Materia dictada desde el 1\textsuperscript{er} semestre de 2015 hasta 2\textsuperscript{do} semestre de 2015.
+	\item[Organizaci\'on del Computador] Materia dictada durante el 1\textsuperscript{er} semestre de 2015.
+\end{description}
+}
+
+\cventry{2008--2011}{\textbf{Ayudante de Segunda }}{\textsc{Facultad de Ciencias Exactas y Naturales}}{}{Universidad de Buenos Aires}{
+\begin{description}
+	\item[Algoritmos y Estructura de Datos I] Materia dictada desde 2\textsuperscript{do} Cuat. de 2009 hasta 1\textsuperscript{er} Cuat. de 2011.
+	\item[Organizaci\'on del Computador II] Materia dictada desde 1\textsuperscript{er} Cuat. de 2008 hasta el 2\textsuperscript{do} Cuat. de 2009.
+\end{description}
+}
+
+
+
+\section{Congresos}
+\cventry{2020}{\textsc{Jornadas Argentinas de Informática}}{Simposio Argentino de Informática Industrial e Investigación Operativa }{Un algoritmo genético para el problema de k-proveedores}{}{}  % Arguments not required can be left empty
+
+
+\section{Antecedentes Profesionales}
+%\subsection{Profesionales}
+\cventry{2009-Hoy}{ Subsecretaria de Transformaci\'on Digital y Modernizaci\'on}{Rectorado y Consejo Superior}{Universidad de Buenos Aires}{desde el 3 de agosto de 2009 a la fecha}{Personal no Docente, categor\'ia 4. En este momento me encuentro realizando tareas de programaci\'on en visual studio .NET y SQL server. Anteriormente realice tareas de programaci\'on en lenguaje JAVA, utilizando frameworks hibernate, ZK, spring y struts. Manejo de base de datos con sentencias	MySQL.}
+
+\cventry{2008-2009}{Stefanini S.A}{Banco Galicia}{}{desde el 25 de junio de 2008 hasta el 23 de enero de 2009}{Realizando tareas de An\'alisis, dise\~no y desarrollo en lenguaje JAVA. Manejo y mantenimiento de base de datos, sentencias SQL.}
+
+\cventry{2007-2008}{Arkios S.A.}{desde el 16 de julio de 2007 hasta el 20 de junio de 2008}{}{}{Desarrollo de tereas de programaci\'on. Realizando capacitaci\'on en JAVA para la migraci\'on de sistemas de gesti\'on de producci\'on, trazabilidad y control de calidad de empresas del sector de la alimentaci\'on de 4D a JAVA .}
+
+
+\cventry{2006-2007}{Direcci\'on de Sistemas}{Facultad de Arquitectura, Dise\~no y Urbanismo}{Universidad de Buenos Aires}{desde noviembre de 2006 hasta el 13 de Julio de 2007}{Realizando tareas de programaci\'on y mantenimiento del sistema Web de inscripciones de alumnos de la FADU trabajando sobre bases de datos Oracle utilizando Python y SQL.}
+
+%\cventry{2005-2006}{Centro Legislativo Ambiental}{desde junio de 2005 hasta noviembre de 2006}{}{}{Tareas administrativas y de oficina realizadas en Word, Excel y PowerPoint. Desarrollo en Visual Studio .NET C\# y SQL de sistema para el almacenamiento y consulta de leyes.	Soporte a empresas usuarios del sistema.}
+
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Awards}
+
+%\cvitem{2011}{School of Business Postgraduate Scholarship}
+%\cvitem{2010}{Top Achiever Award -- Commerce}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Conocimientos}
+\cvitem{Intermedio}{\textsc{c++},\textsc{python}, \textsc{html}, \LaTeX, OpenOffice, Linux, Microsoft Windows}
+\cvitem{Avanzado}{\textsc{java}, \textsc{Visual Basic}, Visual Studio \#NET}
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Communication Skills}
+
+%\cvitem{2010}{Oral Presentation at the California Business Conference}
+%\cvitem{2009}{Poster at the Annual Business Conference in Oregon}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Idiomas}
+
+\cvitem{Ingles}{Intermedio, Comprensi\'on e interpretaci\'on de textos.}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Interests}
+
+%\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+%\cvlistdoubleitem{Piano}{Chess}
+%\cvlistdoubleitem{Cooking}{Dancing}
+%\cvlistitem{Running}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
